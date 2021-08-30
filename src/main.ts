@@ -27,9 +27,18 @@ const secondOperandFloat = parseFloat(secondOperand)
 console.log(secondOperandFloat)
 
 const sum = firstOperandFloat + secondOperandFloat
-console.log(`When you add the two numbers together you get ${sum} as your answer`)
+console.log(`When you add the two numbers together you get ${sum} as your answer.`)
 
 const difference = secondOperandFloat - firstOperandFloat
-console.log(`When you subtract the second number from the first number you get ${difference} as your answer`)
+console.log(`When you subtract the second number from the first number you get ${difference} as your answer.`)
+
+const product = firstOperandFloat * secondOperandFloat
+console.log(`When you multiply the first number by the second number you will get ${product} as your answer.`)
+
+const quotient = firstOperandFloat / secondOperandFloat
+console.log(`When you divide the first number by the second number you get ${quotient} as your answer.`)
+
+const remainder = firstOperandFloat % secondOperandFloat
+console.log(`The reaminder of the 2 numbers is ${remainder}.`)
 
 
