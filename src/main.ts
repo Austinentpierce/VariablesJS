@@ -41,4 +41,4 @@ console.log(`When you divide the first number by the second number you get ${quo
 const remainder = firstOperandFloat % secondOperandFloat
 console.log(`The reaminder of the 2 numbers is ${remainder}.`)
 
-
+console.log(`The sum of the numbers would be ${sum}, The difference of the numbers would be ${difference}, The quotient of the numbers would be ${quotient}, The product of the numbers would be ${product}, The remainder of the numbers would be ${remainder}`)
