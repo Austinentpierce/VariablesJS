@@ -19,3 +19,17 @@ console.log(firstOperand)
 
 const firstOperandFloat = parseFloat(firstOperand)
 console.log(firstOperandFloat)
+
+const secondOperand = window.prompt('Input a number') || '0'
+console.log(secondOperand)
+
+const secondOperandFloat = parseFloat(secondOperand)
+console.log(secondOperandFloat)
+
+const sum = firstOperandFloat + secondOperandFloat
+console.log(`When you add the two numbers together you get ${sum} as your answer`)
+
+const difference = secondOperandFloat - firstOperandFloat
+console.log(`When you subtract the second number from the first number you get ${difference} as your answer`)
+
+
