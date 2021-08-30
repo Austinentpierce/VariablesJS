@@ -13,3 +13,9 @@ const aboutMe = {
 }
 // console.log(aboutMe)
 console.log(`My name is ${aboutMe.fullName} and my luck number is ${aboutMe.luckyNumber} and my favorite movies are ${aboutMe.favoriteMovies}`)
+
+const firstOperand = window.prompt('Input a number') || '0'
+console.log(firstOperand)
+
+const firstOperandFloat = parseFloat(firstOperand)
+console.log(firstOperandFloat)
